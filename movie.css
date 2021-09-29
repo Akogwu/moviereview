@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./background.png");
+}
+
+.header img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px #ddd;
+    padding: 1rem 0;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.container .right-side{
+    float: right;
+    background-color: #a1b963;
+    width: 250px;
+    border-radius: 0 20px 0 0;
+} 
+
+.container .right-side img{
+    border-radius: 0 20px 0 0;
+    z-index: 10;
+}
+
+.container .right-side dl dt{
+    padding: 0.854rem;
+    font-weight: 700;
+}
+
+.container .right-side dl dd{
+
+    padding-left: 2rem;
+}
+
+.rbg-bg{
+    background-image: url("./rbg.png");
+    position: relative;
+    z-index: -1;
+    border-radius: 20px 20px 0 0;
+}
+
+.rbg-bg span{
+    color: red;
+    font-size: 3.5rem;
+    font-weight: 700;
+    position: absolute;
+    top: 1rem;   
+}
+
+.content {
+    padding: 1rem;
+}
+
+
+.comments .user-comment{
+    width: 350px;
+    margin: 0.4rem 0.6rem;
+    float: left;
+}
+
+.comments .comment{
+    background-color: #e7dc9a;
+    border: 1px solid #918866;
+    border-radius: 8px;
+    padding: 8px;
+    width: 300px;    
+}
+
+.user-comment .user{
+    width: 100%;
+    padding-top: 0.5rem;
+    vertical-align: middle;
+}
+
+.user-comment .user img{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.user-comment .user p{
+    vertical-align: middle;
+}
+
+.footer{
+    clear: both;
+    background-color: #a1b963;
+    padding: 1rem;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
